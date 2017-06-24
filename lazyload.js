@@ -64,5 +64,5 @@
     }
   }
 
-  this.lazyload = api
+  this.Lazyload = api
 })()
