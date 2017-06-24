@@ -25,7 +25,6 @@
         }
       }
     }
-    console.log('scroll')
   }
 
   function throttle(fun, delay, time) {
@@ -43,7 +42,6 @@
       } else {
         timer = setTimeout(fun, delay)
       }
-      console.log(delay + ' ' + time)
     }
   }
 
@@ -52,9 +50,7 @@
       if (!ops) return option
       for (var k in ops) {
         option[k] = ops[k]
-        console.log(option[k])
       }
-      console.log(ops)
       return this
     },
     listen: function () {
