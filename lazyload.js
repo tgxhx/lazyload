@@ -2,7 +2,7 @@
  * Created by tgxh on 2017/6/24.
  */
 ;(function () {
-  var imgs = document.querySelectorAll('img'),
+  var imgs = document.querySelectorAll('img.lazyload'),
     option = {
       delay: 500, //延迟
       time: 1000  //滚动间隔
