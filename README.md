@@ -10,5 +10,5 @@ Usage
 Lazyload.config({
   delay: 300,  //显示延迟，默认500ms
   time: 1000  //触发频率
-})
+}).listen()
 ```
